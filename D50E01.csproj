@@ -67,6 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\adam.jpg" />
+    <Content Include="images\fourDervishes.jpg" />
+    <Content Include="images\hamlet.jpg" />
+    <Content Include="index.html" />
+    <Content Include="D50style.css" />
+    <Content Include="D50Script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

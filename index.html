@@ -2,9 +2,42 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <script src="D50Script.js"></script>
+    <link href="D50style.css" rel="stylesheet" />
+    <title>D50E01</title>
 </head>
 <body>
+    <div id="header">
+        <h1>
+            D50E01
+        </h1>
+    </div>
+    <div id="main">
+        <div id="bigBox" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
 
+        </div>
+        <div id="smallBox" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img src="images/adam.jpg"
+            draggable="true"
+                 id="drag1"
+            ondragstart="dragThis(event)"
+            height="200">
+        </div>
+        <div id="smallBox" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img src="images/fourDervishes.jpg"
+                 draggable="true"
+                 id="drag2"
+            ondragstart="dragThis(event)"
+            height="200"/>
+        </div>
+        <div id="smallBox" ondrop="dropThis(event)" ondragover="allowDropThis(event)">
+            <img src="images/hamlet.jpg"
+                 draggable="true"
+                 id="drag3"
+            ondragstart="dragThis(event)"
+            height="200"/>
+        </div>
+
+    </div>
 </body>
 </html>
